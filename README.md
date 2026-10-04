@@ -1,4 +1,4 @@
-# AI Backend
+# Chat-G-Baby
 
 An extensible Node.js backend for an authenticated AI chat application. It combines Gemini-powered responses with persistent conversations, MongoDB-backed user data, Redis rate limiting, token accounting, and automatic conversation summarization.
 
