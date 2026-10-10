@@ -46,7 +46,7 @@ export const updateSummaryIfNeeded = async chatId => {
   }
 
   const result = await getData.json();
-  if (!data) {
+  if (!result) {
     throw new Error("Incorrect JSON format for AI response");
   }
 
